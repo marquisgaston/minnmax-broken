@@ -19,7 +19,7 @@ class Navbar extends Component {
                                 Patreon
                             </a>
                             <a href='http://www.youtube.com/minnmaxgames'>
-                                youTube
+                                YouTube
                             </a>
                             <a>
                                 Community

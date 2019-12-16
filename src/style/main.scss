@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%; // 1rem is 10px
+
 }
 
 *,
@@ -19,6 +20,9 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
+
+ 
+    
 }
 
 .app {
@@ -29,4 +33,5 @@ body {
 
 @import 'navbar.scss';
 @import 'homepage/homepage.scss';
-@import 'homepage/featured-content.scss'
+@import 'homepage/featured-carousel.scss';
+@import 'footer/footer.scss';

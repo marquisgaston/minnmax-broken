@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FeaturedContent from './featuredContnet';
+import FeaturedContent from './featuredContent';
 import FeaturedCarousel from './featuredCarousel';
 
 class HomePage extends Component {
@@ -7,11 +7,11 @@ class HomePage extends Component {
     render() { 
         return ( 
             <div className='homepage'>
-                <FeaturedContent/>
-                {/* <FeaturedCarousel/> */}
+                
+                <FeaturedCarousel/>
             </div>
          );
     }
 }
- 
+
 export default HomePage;

@@ -1,0 +1,55 @@
+.slide {
+
+    width: 1175px;
+    @media only screen and (max-width: 600px) {
+        width: 550px;
+    }
+    
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: grey;
+    width: 50px;
+
+    @media only screen and (max-width: 600px) {
+        background-color: rgba(0,0,0,1);
+    }
+
+    &:hover {
+        background-color: #69785b;
+    }
+}
+
+.carouselItem {
+
+    display: flex;
+    justify-content: center;
+
+    .iframe {
+        border: 30px solid blue;
+    }
+
+    .featured-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+        background-color: rgba(0,0,0,.1);
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        margin-left: 20px;
+
+        @media only screen and (max-width: 600px) {
+            display: none;
+        }
+
+        &__text, h2, h3 {
+            display: flex;
+            justify-content: center;;
+            width: 300px;
+            font-size: 14px;
+        }
+    }
+
+}

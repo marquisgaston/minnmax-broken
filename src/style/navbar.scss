@@ -1,41 +1,62 @@
 .navbar-wrapper {
     display: flex;
     justify-content: center;
-    border-radius: 3px;   
-
+    border-radius: 3px;
 
     .navbar {
-        border: 1px dotted black;
-        background-color: #69785b;
         // height: 70px;
         margin-bottom: 20px;
         // width: 56vw;
         width: 100vw;
         justify-self: center;
-        
-        
+
+                
+        @media only screen and (max-width: 600px) {
+            background-color: white;
+        }
+
     
         
         .navbar__flex {
             display: flex;
             align-items: center;
             width: 100%;
-            height: 30px; 
+            height: 30px;
+            justify-content: space-between;
+
+            @media only screen and (max-width: 600px) {
+                height: 100%;
+            }
     
             &__logo {
                 
                 img {
-                    height: 72px;
-                    transform: translateY(54px);
+                    height: 120px;
+                    transform: translateY(26px);
+
+                    @media only screen and (max-width: 600px) {
+                        transform: translateY(0px);
+                        width: 30vw;
+                        height: 100%;
+                    }
                 }
+
             }
     
             &__buttons {
                 display: flex;
                 justify-content: center;
-                width: 100%;
+                width: 93%;
                 justify-self: center;
-                // height: 100%;
+                
+                background-color: #69785b;
+                        
+                @media only screen and (max-width: 600px) {
+                    flex-direction: column;
+                    background-color: #69785b;
+                    width: 70vw;
+                    justify-content: space-around;
+                }
                 
                 h2 {
                     height: 100%;
@@ -48,9 +69,28 @@
                 margin-left: 20px;
                 margin-right: 20px;
                 color: white;
+                text-decoration: none;
+
+                font-size: 20px;
+
+                &:hover {
+                    border-bottom: 1px solid white;
+                }
             }
         }
     
     }
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-flex {
+        height: 100%;
+
+        &__buttons {
+            flex-direction: column;
+        }
+    }
+  }
 
