@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
   "engines": {
-    "node": "12.13.1"
+    "node": "12.13.0"
   },
   "scripts": {
     "preinstall": "npm set audit false",
@@ -16,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:bottega-code-school/js-builder.git"
-  },
+  },git
   "keywords": [
     "es6",
     "es7",
