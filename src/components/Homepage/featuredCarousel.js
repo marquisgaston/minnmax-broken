@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Carousel from 'react-bootstrap/carousel'
+import { Carousel } from 'react-bootstrap'
 
 // import axios from 'axios';
 
